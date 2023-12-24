@@ -1,0 +1,139 @@
+body{
+    margin: 0 auto;
+    padding: 10px 12px 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#piano{
+    height: 290px;
+    padding: 90px 30px 0 30px;
+    background-color: #222222;
+    border-radius: 12px;
+}
+.keys{
+    position: relative;
+}
+
+.whiteKeys{
+    display: flex;
+}
+
+.blackKeys{
+    position: relative;
+    display: flex;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #d38612;
+    opacity: 0.5;
+  }
+
+.white-key{
+    width: 35px;
+    margin-top: 80px;
+    height: 180px;
+    background-color:#e8e3e3 ;
+    border-radius: 0 0 10px 10px;
+    border: solid #000 1px ;
+    box-sizing: border-box;
+}
+
+.black-key{
+    width: 20px;
+    height: 80px;
+    margin-top: 80px;
+    border-radius: 0 0 20px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #3a3a3a;
+
+}
+
+.black-key:nth-child(1){
+    left: 25px;   
+}
+
+.black-key:nth-child(2){
+    left: 60px;   
+}
+
+.black-key:nth-child(3){
+    left: 130px;   
+}
+
+.black-key:nth-child(4){
+    left: 165px;   
+}
+
+.black-key:nth-child(5){
+    left: 200px;   
+}
+.black-key:nth-child(6){
+    left: 270px;   
+}
+.black-key:nth-child(7){
+    left: 305px;   
+}
+
+.black-key:nth-child(8){
+    left: 375px;   
+}
+.black-key:nth-child(9){
+    left: 410px;   
+}
+.black-key:nth-child(10){
+    left: 445px;   
+}
+.black-key:nth-child(11){
+    left: 515px;   
+}
+
+.black-key:nth-child(12){
+    left: 550px;   
+}
+
+.black-key:nth-child(13){
+    left: 620px;   
+}
+
+.black-key:nth-child(14){
+    left: 655px;   
+}
+
+.black-key:nth-child(15){
+    left: 690px;   
+}
+.black-key:nth-child(16){
+    left: 760px;   
+}
+.black-key:nth-child(17){
+    left: 795px;   
+}
+
+.black-key:nth-child(18){
+    left: 865px;   
+}
+.black-key:nth-child(19){
+    left: 900px;   
+}
+.black-key:nth-child(20){
+    left: 935px;   
+}
+.black-key:nth-child(21){
+    left: 1005px;   
+}
+.black-key:nth-child(22){
+    left: 1040px;   
+}
+
+.black-key:nth-child(23){
+    left: 1110px;   
+}
+.black-key:nth-child(24){
+    left: 1145px;   
+}
+.black-key:nth-child(25){
+    left: 1180px;   
+}
